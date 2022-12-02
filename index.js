@@ -123,26 +123,6 @@ async function run() {
 
     // advertise post
 
-    app.post("/advertise", async (req, res) => {
-      const advertise = req.body;
-      const result = await advertiseCollection.insertOne(advertise);
-      res.send(result);
-    });
-
-    //paymentDetails post
-    app.post("/payment", async (req, res) => {
-      const payment = req.body;
-      const result = await allPaymentCollection.insertOne(payment);
-      res.send(result);
-    });
-
-    // post a new user
-    app.post("/users", async (req, res) => {
-      const user = req.body;
-      const result = await allUsersCollection.insertOne(user);
-      res.send(result);
-    });
-
     // upsert user
     app.put("/users", async (req, res) => {
       const user = req.body;
