@@ -62,6 +62,39 @@ async function run() {
       const allProducts = await cursor.toArray();
       res.send(allProducts);
     });
+
+    //get all the booking
+    app.get("/booking", async (req, res) => {
+      const query = {};
+      const cursor = allBookingCollection.find(query);
+      const allBooking = await cursor.toArray();
+      res.send(allBooking);
+    });
+    //get all users
+    app.get("/users", async (req, res) => {
+      const query = {};
+      const cursor = allUsersCollection.find(query);
+      const allUsers = await cursor.toArray();
+      res.send(allUsers);
+    });
+
+    // get a specific user
+    app.get("/allUsers/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { email: id };
+      const user = await allUsersCollection.findOne(query);
+      res.json(user);
+    });
+
+    //-------------Post AREA Start-----------------//
+
+    // Post a new service
+
+    app.post("/booking", async (req, res) => {
+      const booking = req.body;
+      const result = await allBookingCollection.insertOne(booking);
+      res.send(result);
+    });
   } finally {
   }
 }
