@@ -45,6 +45,28 @@ const client = new MongoClient(uri, {
 //   next();
 // }
 
+async function run() {
+  try {
+    const database = client.db("bi-cycle-server");
+    const allProductsCollection = database.collection("allProducts");
+    const allBookingCollection = database.collection("allBooking");
+    const allUsersCollection = database.collection("allUsers");
+    const allPaymentCollection = database.collection("paymentDetails");
+
+    //-------------GET AREA Start-----------------//
+
+    //get all the products
+    app.get("/allProducts", async (req, res) => {
+      const query = {};
+      const cursor = allProductsCollection.find(query);
+      const allProducts = await cursor.toArray();
+      res.send(allProducts);
+    });
+  } finally {
+  }
+}
+run().catch((err) => console.log(err));
+
 app.get("/", (req, res) => {
   res.send("Welcome to Server");
 });
