@@ -163,6 +163,31 @@ async function run() {
       const result = await advertiseCollection.insertOne(ads);
       res.send(result);
     });
+
+    //update booking
+    app.put("/booking/:id", verifyToken, async (req, res) => {
+      const id = req.params.id;
+      const requester = req.decodedEmail;
+
+      if (requester) {
+        const requesterAccount = await allUsersCollection.findOne({
+          email: requester,
+        });
+        if (requesterAccount.role === "buyer") {
+          const filter = { _id: ObjectId(id) };
+          const updateDoc = { $set: { paid: "true" } };
+          const result = await allBookingCollection.updateOne(
+            filter,
+            updateDoc
+          );
+          res.json(result);
+        }
+      } else {
+        res.status(401).json({ massage: "user not an buyer" });
+      }
+    });
+
+    //update seller status
   } finally {
   }
 }
