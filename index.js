@@ -136,6 +136,13 @@ async function run() {
       res.send(result);
     });
 
+    // post a new user
+    app.post("/users", async (req, res) => {
+      const user = req.body;
+      const result = await allUsersCollection.insertOne(user);
+      res.send(result);
+    });
+
     // upsert user
     app.put("/users", async (req, res) => {
       const user = req.body;
