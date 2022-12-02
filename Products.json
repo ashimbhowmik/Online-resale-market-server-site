@@ -1,0 +1,129 @@
+[
+  {
+    "itemName": "Samsung",
+    "location": "Dhaka,Bangladesh",
+    "resalePrice": 3000,
+    "originalPrice": 5000,
+    "yearsOfUse": 1,
+    "createDate": "30/06/2022",
+    "sellerName": "Alex Saha",
+    "image": "https://i0.wp.com/dazzle.com.bd/wp-content/uploads/2022/01/s21-fe-5g-green.png?fit=600%2C600&ssl=1",
+    "category": "Samsung S21 FE"
+  },
+  {
+    "itemName": "Samsung",
+    "location": "Dhaka,Bangladesh",
+    "resalePrice": 1000,
+    "originalPrice": 3000,
+    "yearsOfUse": 2,
+    "createDate": "20/12/2022",
+    "sellerName": "Alex Saha",
+    "image": "https://static.gadgetandgear.com/tmp/product/20220423_1650687083_966562.png",
+    "category": "Samsung S22"
+  },
+  {
+    "itemName": "Samsung",
+    "location": "Dhaka,Bangladesh",
+    "resalePrice": 1500,
+    "originalPrice": 4000,
+    "yearsOfUse": 3,
+    "createDate": "15/12/2022",
+    "sellerName": "Lawansuz Billah",
+    "image": "https://i0.wp.com/www.mobilebd.co/wp-content/uploads/2020/10/Samsung-Galaxy-S20-Official-image-500x500.jpg",
+    "category": "Samsung S20"
+  },
+  {
+    "itemName": "I Phone",
+    "location": "Dhanmondi,Bangladesh",
+    "resalePrice": 2000,
+    "originalPrice": 6000,
+    "yearsOfUse": 1,
+    "createDate": "20/11/2022",
+    "sellerName": "Apurba Hossan",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Max-Deep-Purple-7900.jpg",
+    "category": "I Phone 14 pro max"
+  },
+  {
+    "itemName": "I Phone",
+    "location": "Mirpur,Bangladesh",
+    "resalePrice": 1000,
+    "originalPrice": 5000,
+    "yearsOfUse": 2,
+    "createDate": "11/10/2022",
+    "sellerName": "Ihsan Hossan",
+    "image": "https://mobilemall.pk/public_html/images/product/product_1631794852iphone-13-pro-silver-select.png",
+    "category": "I Phone 13 pro"
+  },
+  {
+    "itemName": "I Phone",
+    "location": "Dhaka,Bangladesh",
+    "resalePrice": 2000,
+    "originalPrice": 6000,
+    "yearsOfUse": 3,
+    "createDate": "20/09/2022",
+    "sellerName": "Keya Palyel",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/1533-41338.jpg",
+    "category": "I Phone 12"
+  },
+  {
+    "itemName": "One Plus",
+    "location": "Savar,Bangladesh",
+    "resalePrice": 3000,
+    "originalPrice": 8000,
+    "yearsOfUse": 2,
+    "createDate": "25/05/2022",
+    "sellerName": "Tanzil Tisha",
+    "image": "https://www.mobiledokan.co/wp-content/uploads/2021/02/OnePlus-9R-Lake-Blue.jpg",
+    "category": "One Plus 9r"
+  },
+  {
+    "itemName": "One Plus",
+    "location": "Dhaka,Bangladesh",
+    "resalePrice": 3000,
+    "originalPrice": 6000,
+    "yearsOfUse": 3,
+    "createDate": "05/05/2022",
+    "sellerName": "Sakib hasan",
+    "image": "https://www.mobiledokan.co/wp-content/uploads/2020/07/OnePlus-8T-Aquamarine-Green.jpg",
+    "category": "One Plus 8t"
+  },
+  {
+    "itemName": "One Plus",
+    "location": "Dhaka,Bangladesh",
+    "resalePrice": 1000,
+    "originalPrice": 4000,
+    "yearsOfUse": 4,
+    "createDate": "08/07/2022",
+    "sellerName": "Jovan hossan",
+    "image": "https://www.gizmochina.com/wp-content/uploads/2021/11/oneplus_10_pro.png",
+    "category": "One Plus 10pro"
+  },
+  {
+    "meetingLocation": "Dhaka",
+    "phoneNo": "017",
+    "paid": false,
+    "itemName": "I Phone",
+    "itemRetailPrice": "1000",
+    "itemOriginalPrice": "1200",
+    "itemYearsUsed": "2",
+    "itemLocation": "Dhaka",
+    "itemImage": "https://mobilemall.pk/public_html/images/product/product_1631794852iphone-13-pro-silver-select.png",
+    "itemCategory": "i-phone",
+    "itemDate": 1669985970515,
+    "itemSeller": "samim"
+  },
+  {
+    "meetingLocation": "Dhaka",
+    "phoneNo": "017",
+    "paid": false,
+    "itemName": "I Phone",
+    "itemRetailPrice": "1000",
+    "itemOriginalPrice": "1200",
+    "itemYearsUsed": "2",
+    "itemLocation": "Dhaka",
+    "itemImage": "https://mobilemall.pk/public_html/images/product/product_1631794852iphone-13-pro-silver-select.png",
+    "itemCategory": "i-phone",
+    "itemDate": 1669985970515,
+    "itemSeller": "Alim"
+  }
+]
